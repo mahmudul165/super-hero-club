@@ -1,5 +1,4 @@
 import React from "react";
-import SelectedTeam from "../SelectedTeam/SelectedTeam";
 import "./TeamMember.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -14,19 +13,8 @@ const TeamMember = (props) => {
   const achiveIcon = <FontAwesomeIcon icon={faTrophy} />;
   const phoneIcon = <FontAwesomeIcon icon={faPhone} />;
   // Destructure
-  const {
-    picture,
-    salary,
-    phone,
-    name,
-    expertice,
-    language,
-    age,
-    address,
-    about,
-    achievements,
-    email,
-  } = props.member;
+  const { picture, salary, phone, name, age, about, achievements, email } =
+    props.member;
 
   return (
     <>

@@ -14,6 +14,8 @@ const Cards = () => {
   }, []);
   //function for onclick event
   const handleAddToCard = (member) => {
+    //console.log(member._id);
+
     const newCart = [...cart, member];
     setCart(newCart);
   };
