@@ -2,7 +2,7 @@
   {
     "_id": "616af7c07b6a3d1696aef4d0",
     "index": 0,
-    "balance": "1,907.50",
+    "salary": 50000,
     "picture": "http://placehold.it/32x32",
     "age": 24,
     "name": "Munoz Callahan",
@@ -15,7 +15,7 @@
   {
     "_id": "616af7c003ca1b1ed76edfdb",
     "index": 1,
-    "balance": "1,573.70",
+    "salary": 110000,
     "picture": "http://placehold.it/32x32",
     "age": 27,
     "name": "Santos Stanton",
@@ -29,7 +29,7 @@
   {
     "_id": "616af7c0e05d177ac9b76543",
     "index": 2,
-    "balance": "1,471.57",
+    "salary": 65000,
     "picture": "http://placehold.it/32x32",
     "age": 31,
     "name": "Mullen Maldonado",
@@ -42,7 +42,7 @@
   {
     "_id": "616af7c012493ec2f4fbc5cd",
     "index": 3,
-    "balance": "3,663.35",
+    "salary": 30000,
     "picture": "http://placehold.it/32x32",
     "age": 28,
     "name": "Dickson Rollins",
@@ -55,7 +55,7 @@
   {
     "_id": "616af7c0f8749af1d1db13d8",
     "index": 4,
-    "balance": "3,667.40",
+    "salary": 55000,
     "picture": "http://placehold.it/32x32",
     "age": 22,
     "name": "Verna Buckner",
@@ -68,7 +68,7 @@
   {
     "_id": "616af7c04957a616ccb05844",
     "index": 5,
-    "balance": "3,313.75",
+    "salary": 75000,
     "picture": "http://placehold.it/32x32",
     "age": 24,
     "name": "Darlene Salas",
@@ -81,7 +81,7 @@
   {
     "_id": "616af7c022d92b55ef68d269",
     "index": 6,
-    "balance": "1,300.81",
+    "salary": 42000,
     "picture": "http://placehold.it/32x32",
     "age": 26,
     "name": "Patton Delaney",
@@ -94,7 +94,7 @@
   {
     "_id": "616af7c03beec02b7488308f",
     "index": 7,
-    "balance": "3,574.53",
+    "salary": 39000,
     "picture": "http://placehold.it/32x32",
     "name": "Farmer Roth",
     "expertice": "Network Enginner",
@@ -107,7 +107,7 @@
   {
     "_id": "616af7c092b8a53225502027",
     "index": 8,
-    "balance": "3,524.25",
+    "salary": 29500,
     "picture": "http://placehold.it/32x32",
     "name": "Webb Mccarthy",
     "expertice": "Back End Developer",
