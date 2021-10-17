@@ -3,14 +3,14 @@ import SelectedTeam from "../SelectedTeam/SelectedTeam";
 import TeamMember from "../TeamMember/TeamMember";
 import "./Cards.css";
 const Cards = () => {
-  const [teams, setTeam] = useState([]);
+  const [members, setMember] = useState([]);
   const [cart, setCart] = useState([]);
   useEffect(() => {
     const url = `./clubmember.json`;
     // load data from json
     fetch(url)
       .then((res) => res.json())
-      .then((data) => setTeam(data));
+      .then((data) => setMember(data));
   }, []);
   //function for onclick event
   const handleAddToCard = (member) => {
@@ -24,7 +24,7 @@ const Cards = () => {
       <section className="main-container ">
         {/*  ALL MEMBER INFO */}
         <div className="members">
-          {teams.map((member) => (
+          {members.map((member) => (
             <TeamMember
               key={member._id}
               member={member}
