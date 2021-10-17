@@ -1,3 +1,5 @@
+Live Preview:""
+Code(github):"https://github.com/ProgrammingHeroWC4/the-superhero-direction-mahmudul165"
 Project Name : Create  Super Programming Club
 Description:
 1.Given data of world faamous programmer.By choosen them one by one you can create a super progamming club.
@@ -7,4 +9,4 @@ Description:
 Tecnology :
 1. ReactBootstrap,
 2.ReactFontAwesome
-3.uses Json file for ""
+3.uses Json file for "clubmember.json"
