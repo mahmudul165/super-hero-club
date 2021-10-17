@@ -8,7 +8,7 @@
 
 ### 1.Given data of world faamous programmer.By choosen them one by one you can create a super progamming club.
 
-### 2.by click on "select member" button you can add a member on your club.
+### 2.By click on "select member" button in multiple time you can add a member in one time on your club.One member added in one time that why array are filtered for unique object cause in read life one member are not add in club as multiple time.
 
 ### 3.club member and total cost to create a club with famous programmer are show dynamicaly time of member adding to club.
 
