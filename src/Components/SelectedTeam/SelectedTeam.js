@@ -15,13 +15,13 @@ const SelectedTeam = (props) => {
       {cart.map((name) => (
         <div
           className="d-flex align-items-center
-        justify-content-around  p-1 mx-1 my-1 text-success bg-white rounded text-center"
+        justify-content-around  p-1 mx-1 my-3 text-success bg-white rounded text-center"
         >
-          <h4>{name.name}</h4>
+          <h6>{name.name}</h6>
           <img
             className="img"
-            width="100px"
-            height="100px"
+            width="80px"
+            height="80px"
             src={name.picture}
             alt=""
           />

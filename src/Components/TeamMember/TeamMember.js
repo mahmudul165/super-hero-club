@@ -30,6 +30,7 @@ const TeamMember = (props) => {
         <h2 className="text-success">{name}</h2>
         <h6>{about}</h6>
         <h6 className="color my-2">Achievements : {achievements}</h6>
+        <h6 className="text-color fw-bolder my-3 p-2 ">{phone}</h6>
         <div
           className="d-flex align-items-center
         justify-content-around text-color fw-bolder my-3"
@@ -37,6 +38,7 @@ const TeamMember = (props) => {
           <p>{email}</p>
           <p>Age: {age}</p>
         </div>
+
         <div
           className="d-flex align-items-center
         justify-content-around    "

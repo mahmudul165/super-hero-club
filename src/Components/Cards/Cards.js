@@ -18,7 +18,7 @@ const Cards = () => {
 
   return (
     <>
-      <section className="  main-container   ">
+      <section className="main-container   ">
         {/* <h3>Choose Super Club Member:</h3> */}
         <div className="members">
           {teams.map((member) => (
