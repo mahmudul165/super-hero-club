@@ -20,6 +20,7 @@ const SelectedTeam = (props) => {
       {cart.map((name) => (
         // display the selected member info
         <div
+          key={name._id}
           className="d-flex align-items-center
         justify-content-around  p-1 mx-1 my-3 text-success bg-white rounded text-center"
         >
