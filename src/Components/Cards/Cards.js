@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import SelectedTeam from "../SelectedTeam/SelectedTeam";
 import TeamMember from "../TeamMember/TeamMember";
-
+import "./Cards.css";
 const Cards = () => {
   const [teams, setTeam] = useState([]);
   const [cart, setCart] = useState([]);
@@ -18,19 +18,21 @@ const Cards = () => {
 
   return (
     <>
-      <div>
-        <h3>********from card***********</h3>
-        {teams.map((member) => (
-          <TeamMember
-            key={member._id}
-            member={member}
-            handleAddToCard={handleAddToCard}
-          ></TeamMember>
-        ))}
-      </div>
-      <div className="developer-team">
-        <SelectedTeam cart={cart}></SelectedTeam>
-      </div>
+      <section className="  main-container   ">
+        {/* <h3>Choose Super Club Member:</h3> */}
+        <div className="members">
+          {teams.map((member) => (
+            <TeamMember
+              key={member._id}
+              member={member}
+              handleAddToCard={handleAddToCard}
+            ></TeamMember>
+          ))}
+        </div>
+        <div className="developer-team  ">
+          <SelectedTeam cart={cart}></SelectedTeam>
+        </div>
+      </section>
     </>
   );
 };

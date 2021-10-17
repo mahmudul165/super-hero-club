@@ -1,0 +1,18 @@
+.img {
+  border-radius: 50%;
+  border: 1px solid aquamarine;
+}
+.single-member {
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 2%;
+  border: 1px solid white;
+}
+.text-color {
+  color: goldenrod !important;
+  font-size: 13px;
+}
+.color {
+  color: #dedede;
+}

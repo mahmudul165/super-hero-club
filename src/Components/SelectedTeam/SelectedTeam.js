@@ -10,13 +10,22 @@ const SelectedTeam = (props) => {
   );
   return (
     <div>
-      <h5>Number of Team Members: {props.cart.length}</h5>
-      <p>Total Cost: $ {total}</p>
+      <h5 className="my-2 p-2">Number of Team Members: {props.cart.length}</h5>
+      <p className="">Total Cost: $ {total}</p>
       {cart.map((name) => (
-        <h4>
-          <span>{name.picture} </span>
-          {name.name}
-        </h4>
+        <div
+          className="d-flex align-items-center
+        justify-content-around  p-1 mx-1 my-1 text-success bg-white rounded text-center"
+        >
+          <h4>{name.name}</h4>
+          <img
+            className="img"
+            width="100px"
+            height="100px"
+            src={name.picture}
+            alt=""
+          />
+        </div>
       ))}
     </div>
   );

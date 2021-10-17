@@ -1,0 +1,25 @@
+.members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #dedede;
+  margin: 50px 0px;
+  margin-left: 10px;
+
+  padding: 10px;
+  border-radius: 4px;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  /* background-image: url(../Cards/bg-image.jpg); */
+  text-align: center;
+}
+.developer-team {
+  margin: 50px 10px;
+  padding: 10px;
+  background-color: #dedede;
+  border-radius: 4px;
+  border: 1px solid white;
+  color: purple;
+  height: min-content;
+}
