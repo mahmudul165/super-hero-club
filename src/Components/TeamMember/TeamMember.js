@@ -9,10 +9,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const TeamMember = (props) => {
+  // React fontawesome ICON
   const cartIcon = <FontAwesomeIcon icon={faShoppingCart} />;
   const achiveIcon = <FontAwesomeIcon icon={faTrophy} />;
   const phoneIcon = <FontAwesomeIcon icon={faPhone} />;
-
+  // Destructure
   const {
     picture,
     salary,

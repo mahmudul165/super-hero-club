@@ -1,7 +1,9 @@
+/* design loaded image */
 .img {
   border-radius: 50%;
   border: 1px solid aquamarine;
 }
+/* design single member */
 .single-member {
   padding: 5px;
   margin: 5px;
