@@ -6,7 +6,7 @@ const Cards = () => {
   const [teams, setTeam] = useState([]);
   const [cart, setCart] = useState([]);
   useEffect(() => {
-    const url = `./developers.json`;
+    const url = `./clubmember.json`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setTeam(data));
@@ -18,8 +18,8 @@ const Cards = () => {
 
   return (
     <>
-      <section className="main-container   ">
-        {/* <h3>Choose Super Club Member:</h3> */}
+      <h3 className="pt-2 my-2 ms-3 text-primary">Choose Club Member:</h3>
+      <section className="main-container ">
         <div className="members">
           {teams.map((member) => (
             <TeamMember
